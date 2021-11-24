@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #adb5bd,#0d6efd);
+    height: 100vh;
+    overflow: hidden;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    background: white;
+    width: 25rem;
+    border-radius: 0.8rem;
+    box-shadow: 1rem 0.5rem 2rem 0.5rem #adb5bd;
+}
+.center h1{
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.center form{
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+}
+form .txt-field{
+    position: relative;
+    margin-bottom: 1rem;
+}
+.txt-field input{
+    width: 100%;
+    height: 2.2rem;
+    border: none;
+    border-radius: 0.2rem;
+    background: #eaedf0;
+    margin-bottom: 0;
+}
+@media (max-width: 416px){
+.center {
+    max-width: 15rem;
+
+}
+}
+form label{
+    display: none;
+}
+.pass{
+    color:rgb(109, 106, 106);
+}
+form input{
+    background: #347eec;
+    width: 100%;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
